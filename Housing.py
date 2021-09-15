@@ -1,2 +1,5 @@
-class Housing:
+class Location:
+    pass
+
+class House(Location):
     pass

@@ -1,7 +1,7 @@
-from domain import *
+from Children import *
 import os
 
 os.system('clear')
 
-person = Person('Aleida')
-print(person)
+children = Children()
+
