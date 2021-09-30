@@ -1,5 +1,6 @@
 class Animal():
-    pass
+    def __init__(self, name):
+        self.name = name
 
 class Dog(Animal):
     pass
