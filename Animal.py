@@ -7,4 +7,5 @@ class Dog(Animal):
         return 'bark'
 
 class Cat(Animal):
-    pass
+    def speak(self):
+        return 'meow'
