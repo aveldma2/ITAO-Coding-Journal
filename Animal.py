@@ -3,3 +3,6 @@ class Animal():
 
 class Dog(Animal):
     pass
+
+class Cat(Animal):
+    pass
