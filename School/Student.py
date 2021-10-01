@@ -4,7 +4,7 @@ class Student:
         self.id = id
         self.age = age
 
-    def age_num(self):
+    def age_validate(self):
         if type(self.age) == int:
             return True
         else:
