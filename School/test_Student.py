@@ -12,3 +12,8 @@ class TestStudent:
         s = Student(name = 'John', age ='')
 
         assert s.age_validate() == False
+
+    def test_name_str(self):
+        s = Student(name = 123, age = 10)
+
+        assert s.name_validate() == False
