@@ -3,3 +3,9 @@ class Student:
         self.name = name
         self.id = id
         self.age = age
+
+    def age_num(self):
+        if type(self.age) == int:
+            return True
+        else:
+            return False
