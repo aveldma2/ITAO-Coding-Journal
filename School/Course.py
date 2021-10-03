@@ -1,8 +1,12 @@
 class Course:
-    def __init__(self, name, id, enrolled):
+    def __init__(self, name, id):
         self.name = name
         self.id = id
-        self.enrolled
+        self.enrolled = []
+
+        def enroll(self):
+            
+
 
 
 
