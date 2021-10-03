@@ -13,9 +13,14 @@ class Art(Course):
         super(Course, self).__init__(*args, **kwargs)
 
 
-a = Art(art_type=paint)
 
-print(a)
+
+a = Art(art_type='painting')
+a.name = 'Painting 101'
+
+a.enroll()
+
+print(a.name)
 
 
 
